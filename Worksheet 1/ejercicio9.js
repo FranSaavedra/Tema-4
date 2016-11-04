@@ -2,7 +2,7 @@ var img = document.createElement("img");
 var moving = false;
 
 function showImage () {
-  img.src = 'images/imagen.jpg';
+  img.src = 'images/imagen1.jpg';
   img.style.position = "absolute";
 	var div = document.getElementById("div").appendChild(img);
   img.onclick = clickImage;
