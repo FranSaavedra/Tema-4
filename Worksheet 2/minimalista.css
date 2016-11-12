@@ -1,0 +1,31 @@
+#lateral {
+    float: left;
+    width: 10%;
+    height: 100%;
+    background-color: #2196F3;
+}
+
+#central {
+    float: right;
+    background-color: #FFF9C4;
+    width: 90%;
+    height: 100%;
+}
+
+#menu {
+    background-color: #F5F5F5;
+    margin: 15px;
+}
+
+header {
+    margin: 15px;
+}
+
+footer {
+    background-color: #FFEB3B;
+    border: 1px solid #000000;
+}
+
+p {
+    margin: 15px;
+}
