@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script type="text/javascript" src="ejercicio1.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="">
+            <label for="user">User id: </label>
+            <input name="user" type="text" id="user-input" autofocus required><br/><br/>
+
+            <label for="password">Password: </label>
+            <input name="password" type="password" id="password-input" required><br/><br/>
+
+            <label for="name">Name: </label>
+            <input name="name" type="text" id="nombre-input" required><br/><br/>
+
+            <label for="address">Address: </label>
+            <input name="address" type="text" id="address-input"></label><br/><br/>
+
+            <label for="country">Country: </label>
+            <select name="country" id="country-input" required>
+                <option value="spain">Spain</option>S
+                <option value="germany">Germany</option>
+            </select><br/><br/>
+
+            <label for="zipcode">ZIP Code: </label>
+            <input name="zipcode" type="text" id="zipcode-input" required><br/><br/>
+
+            <label for="email">Email: </label>
+            <input name="email" type="text" id="email-input" required><br/><br/>
+
+            <label for="sex">Sex: </label>
+            <input type="radio" name="sex" value="male" id="sex-input" required>Male
+            <input type="radio" name="sex" value="female" id="sex-input">Female<br/><br/>
+
+            <label for="language">Language: </label>
+            <input type="checkbox" name="language" id="language-input" required>English
+            <input type="checkbox" name="language" id="language-input">Non English<br/><br/>
+
+            <label for="about">About: </label>
+            <textarea name="about" id="about-input" cols="30" rows="10"></textarea><br/><br/>
+            <input type="submit" name="submit" value="Submit" id = "submit"/>
+        </form>
+    </div>
+
+</body>
+</html>
